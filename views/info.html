@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Clothing Donation Web</title>
+  <link rel="stylesheet" href="../styles/main.css"/>
+</head>
+
+<body>
+
+<nav>
+  <a href="#">捐赠信息</a>
+  <ul>
+    <li><a href="../index.html">主页</a></li>
+    <li>
+      <a href="../views/contact.html">联系我们</a>
+    </li>
+  </ul>
+</nav>
+
+ <p>您可先浏览受助信息，根据受助需求信息进行捐赠。
+   若浏览受助需求信息后，无合适的捐赠方向，可发布您自己的捐助信息。
+ </p>
+ <p>您可在我网站进行注册，成为会员。登陆后，可发表受助信息或捐助信息,或者，发起或接受捐助。
+   记住，要注册和登陆之后才可以的哦～
+ </p>
+
+<div>
+  <h3>受助信息</h3>
+  <table id="demand-table">
+    <thead>
+    <tr>
+      <th>受助地点</th>
+      <th>受助需求</th>
+      <th>联系他/她</th>
+      <th>送出爱心/发起捐助</th>
+    </tr>
+    </thead>
+  </table>
+
+  <h3>捐助信息</h3>
+  <table id="donation-table">
+    <thead>
+    <tr>
+      <th>捐助人地址</th>
+      <th>捐助物品</th>
+      <th>联系他/她</th>
+      <th>接受爱心</th>
+    </tr>
+    </thead>
+  </table>
+
+</div>
+
+<script type="text/javascript" src="../lib/jquery-2.1.1/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="../lib/bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="../lib/lodash-2.4.1/lodash.compat.js"></script>
+<script type="text/javascript" src="../spec/fixtures.js"></script>
+<script type="text/javascript" src="../scripts/model/item.js"></script>
+<script type="text/javascript" src="../scripts/model/promotion.js"></script>
+<script type="text/javascript" src="../scripts/utils.js"></script>
+<script type="text/javascript" src="../scripts/main.js"></script>
+
+</body>
+</html>
